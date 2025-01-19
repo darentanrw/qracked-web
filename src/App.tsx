@@ -79,8 +79,8 @@ function App() {
             <div className="relative w-full pb-[56.25%]">
               <iframe
                 className="absolute top-0 left-0 w-full h-full rounded-xl shadow-lg"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                title="Extension Demo Video"
+                src="https://www.youtube.com/watch?v=w7YAwHoLAj0"
+                title="Qracked Demo Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
@@ -93,8 +93,8 @@ function App() {
       <footer className="container mx-auto px-4 py-8 text-center text-gray-600">
         <div className="flex flex-col items-center justify-center space-y-2">
           <div className="flex items-center space-x-2">
-            <Coffee className="w-5 h-5" />
-            <p>Made with the most love for Chrome users</p>
+
+            <p>Made with love</p>
           </div>
           <p>By  
             <a href="https://github.com/darentanrw"> Daren, </a>
