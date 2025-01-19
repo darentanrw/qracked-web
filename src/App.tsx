@@ -79,7 +79,7 @@ function App() {
             <div className="relative w-full pb-[56.25%]">
               <iframe
                 className="absolute top-0 left-0 w-full h-full rounded-xl shadow-lg"
-                src="https://www.youtube.com/watch?v=w7YAwHoLAj0"
+                src="https://www.youtube.com/embed/w7YAwHoLAj0"
                 title="Qracked Demo Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
