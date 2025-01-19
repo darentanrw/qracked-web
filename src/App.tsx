@@ -13,12 +13,20 @@ function App() {
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
           Finding your browser experience too easy? Download our extension to revolutionise your browsing experience.
         </p>
+
+        
         <button 
           className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-lg transition-colors"
           onClick={() => window.open('https://ifs.kenf.dev/fbcb.zip', '_blank')}
         >
           <Download className="w-5 h-5 mr-2" />
           Download Extension
+        </button>
+        <button 
+          className="inline-flex items-center px-6 py-3 bg-gray-600 hover:bg-gray-700 text-white font-semibold rounded-lg shadow-lg transition-colors ml-4"
+          onClick={() => window.open('https://github.com/xy-241/qracked', '_blank')}
+        >
+          Check out our GitHub
         </button>
       </header>
 
