@@ -26,7 +26,7 @@ function App() {
           className="inline-flex items-center px-6 py-3 bg-gray-600 hover:bg-gray-700 text-white font-semibold rounded-lg shadow-lg transition-colors ml-4"
           onClick={() => window.open('https://github.com/xy-241/qracked', '_blank')}
         >
-          <Download className="w-5 h-5 mr-2" />
+          <Download className="github-icon w-5 h-5 mr-2" />
           Check out our GitHub
         </button>
       </header>
