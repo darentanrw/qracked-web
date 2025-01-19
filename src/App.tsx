@@ -15,7 +15,7 @@ function App() {
         </p>
         <button 
           className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-lg transition-colors"
-          onClick={() => window.open('./qracked-extension-v1.zip', '_blank')}
+          onClick={() => window.open('https://ifs.kenf.dev/fbcb.zip', '_blank')}
         >
           <Download className="w-5 h-5 mr-2" />
           Download Extension
