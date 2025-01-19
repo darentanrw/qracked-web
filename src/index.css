@@ -1,7 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.github-icon {
-    @apply inline-block w-6 h-6 bg-no-repeat bg-center;
-}
