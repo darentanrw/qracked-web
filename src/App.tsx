@@ -8,7 +8,7 @@ function App() {
       <header className="container mx-auto px-4 py-16 text-center">
         <Chrome className="w-16 h-16 mx-auto text-blue-600 mb-6" />
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-          QRackerd
+          Qracked
         </h1>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
           Finding your browser experience too easy? Download our extension to revolutionise your browsing experience.
