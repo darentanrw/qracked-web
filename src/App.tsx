@@ -8,7 +8,7 @@ function App() {
       <header className="container mx-auto px-4 py-16 text-center">
         <Chrome className="w-16 h-16 mx-auto text-blue-600 mb-6" />
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-          QRackers
+          QRackerd
         </h1>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
           Finding your browser experience too easy? Download our extension to revolutionise your browsing experience.
@@ -17,7 +17,7 @@ function App() {
         
         <button 
           className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-lg transition-colors"
-          onClick={() => window.open('https://ifs.kenf.dev/fbcb.zip', '_blank')}
+          onClick={() => window.open('https://ifs.kenf.dev/qracked.zip', '_blank')}
         >
           <Download className="w-5 h-5 mr-2" />
           Download Extension
@@ -26,6 +26,7 @@ function App() {
           className="inline-flex items-center px-6 py-3 bg-gray-600 hover:bg-gray-700 text-white font-semibold rounded-lg shadow-lg transition-colors ml-4"
           onClick={() => window.open('https://github.com/xy-241/qracked', '_blank')}
         >
+          <Download className="w-5 h-5 mr-2" />
           Check out our GitHub
         </button>
       </header>
